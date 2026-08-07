@@ -5,13 +5,14 @@ print("=" * 40)
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 dream = input("What is your dream career? ")
-study = int(input("How many hours do you study every day? "))
+study_hours = int(input("How many hours do you study every day? "))
+weekly_hours = study_hours * 7
 
 print("\n----- PROFILE -----")
-print(f"Name  : {name}")
-print(f"Age   : {age}")
-print(f"Dream : {dream}")
-print(f"Study : {study * 7}")
+print(f"Name           : {name}")
+print(f"Age            : {age}")
+print(f"Dream          : {dream}")
+print(f"Study per week : {weekly_hours} hours")
 
 years = 25 - age
 
