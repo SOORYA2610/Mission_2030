@@ -10,6 +10,7 @@ for i in range(5):
         else:
             print("Invalid mark! Enter a value between 0 and 100.")
 
+print("\n----- RESULT -----")
 print("Student Marks:")
 
 for mark in marks:
